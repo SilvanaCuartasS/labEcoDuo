@@ -14,3 +14,19 @@ GET http://localhost:5050/users
 GET http://localhost:5050/orders
 
 
+//Laboratorio 2
+
+// 6. Filtrar por múltiples condiciones
+GET http://localhost:5050/products-filter-second
+
+
+// 7. Buscar por texto parcial (like)
+GET http://localhost:5050/posts
+
+
+// 8. Buscar por texto parcial (like)
+GET http://localhost:5050/products-limit-offset
+
+// Traer registros relacionados con el usuario actual
+GET http://localhost:5050/products-by-user/128de8c4-f246-4e37-b8c6-388ac610f6cc
+
