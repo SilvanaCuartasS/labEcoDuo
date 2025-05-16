@@ -27,6 +27,6 @@ GET http://localhost:5050/posts
 // 8. Buscar por texto parcial (like)
 GET http://localhost:5050/products-limit-offset
 
-// Traer registros relacionados con el usuario actual
+// 9.Traer registros relacionados con el usuario actual
 GET http://localhost:5050/products-by-user/128de8c4-f246-4e37-b8c6-388ac610f6cc
 
